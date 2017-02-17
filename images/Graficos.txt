@@ -1,0 +1,3 @@
+img_bg_1.jpg
+Imagen con línea gráfica
+
