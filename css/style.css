@@ -351,7 +351,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 @media screen and (max-width: 768px) {
   .fh5co-cover {
-    height: 600px;
+    height:400px;
   }
 }
 .fh5co-cover .display-t,
@@ -523,7 +523,12 @@ h1, h2, h3, h4, h5, h6, figure {
   padding: 3em 0;
   clear: both;
 }
-
+.fh5co-contact-info ul li:before{
+  left:20px;
+}
+.fh5co-contact-info ul li.address:before{
+  text-align: center;
+}
 #fh5co-steps {
   clear: both;
   padding-bottom: 7em;
@@ -744,6 +749,12 @@ h1, h2, h3, h4, h5, h6, figure {
     opacity: 0;
     visibility: hidden;
   }
+  .fh5co-contact-info ul li:before{
+  left:20px;
+}
+.fh5co-contact-info ul li.address:before{
+  text-align: center;
+}
 }
 .fh5co-project > a:hover h3, .fh5co-project > a:hover span {
   opacity: 1;
@@ -765,6 +776,15 @@ h1, h2, h3, h4, h5, h6, figure {
     -o-transform: scale(1);
     transform: scale(1);
   }
+  .fh5co-contact-info ul li:before{
+  left:20px;
+}
+.fh5co-contact-info ul li{
+  text-align: center;
+}
+.fh5co-nav #fh5co-logo{
+  width:200%;
+}
 }
 
 .features {
@@ -1464,9 +1484,15 @@ h1, h2, h3, h4, h5, h6, figure {
   color: #fff;
   border: 2px solid #4CC2F0;
 }
+.js-dollar:after{
+  content:"$";
+}
+.js-porcentaje:after{
+  content:"%";
+}
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-  background: #fff;
-  color: #E62068;
+  background: purple;
+  color: #fff;
   border: 2px solid #fff;
 }
 .btn-primary.btn-outline {
