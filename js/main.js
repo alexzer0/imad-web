@@ -276,7 +276,7 @@ $(function(){
 
                  var targetOffset = $target.offset().top;
 
-                 $('html,body').animate({scrollTop: targetOffset}, 1000);
+                 $('html,body').animate({scrollTop: targetOffset}, 500);
 
                  return false;
 

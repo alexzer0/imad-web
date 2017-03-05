@@ -466,8 +466,8 @@ h1, h2, h3, h4, h5, h6, figure {
 #fh5co-counter .display-tc .btn.btn-learn:focus,
 .fh5co-cover .display-tc .btn.btn-learn:hover,
 .fh5co-cover .display-tc .btn.btn-learn:focus {
-  background: rgba(255, 255, 255, 0.9) !important;
-  color: #E62068 !important;
+  background: purple !important;
+  color: #fff !important;
 }
 #fh5co-header .display-tc .btn:hover,
 #fh5co-counter .display-tc .btn:hover,
@@ -503,7 +503,7 @@ h1, h2, h3, h4, h5, h6, figure {
 #fh5co-blog,
 #fh5co-contact,
 #fh5co-footer {
-  padding: 7em 0;
+  padding: 4em 0;
   clear: both;
 }
 @media screen and (max-width: 768px) {
@@ -520,8 +520,8 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 #fh5co-counter {
-  padding: 3em 0;
-  clear: both;
+  /*padding: 3em 0;
+  clear: both;*/
 }
 .fh5co-contact-info ul li:before{
   left:20px;
@@ -535,7 +535,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 .fh5co-counters {
-  padding: 3em 0;
+  /*padding: 3em 0;*/
   background-size: cover;
   background-attachment: fixed;
   background-position: center center;
@@ -777,14 +777,14 @@ h1, h2, h3, h4, h5, h6, figure {
     transform: scale(1);
   }
   .fh5co-contact-info ul li:before{
-  left:20px;
-}
-.fh5co-contact-info ul li{
-  text-align: center;
-}
-.fh5co-nav #fh5co-logo{
-  width:200%;
-}
+    left:20px;
+  }
+  .fh5co-contact-info ul li{
+    text-align: center;
+  }
+  .fh5co-nav #fh5co-logo{
+    width:200%;
+  }
 }
 
 .features {
