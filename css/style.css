@@ -520,8 +520,8 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 #fh5co-counter {
-  /*padding: 3em 0;
-  clear: both;*/
+ /* padding: 3em 0;*/
+  clear: both;
 }
 .fh5co-contact-info ul li:before{
   left:20px;
