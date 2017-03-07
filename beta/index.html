@@ -26,7 +26,7 @@
 	<meta name="twitter:image" content="" />
 	<meta name="twitter:url" content="" />
 	<meta name="twitter:card" content="" />
-
+<script src="js/jquery.min.js"></script>
 	<link href="https://fonts.googleapis.com/css?family=Work+Sans:300,400,500,700,800" rel="stylesheet">
 	
 	<!-- Animate.css -->
@@ -127,18 +127,18 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-3 text-center animate-box">
-					<span class="fh5co-counter js-counter" data-from="0" data-to="17" data-speed="2500" data-refresh-interval="50"></span>
+					<span class="fh5co-counter js-counter " data-from="0" data-to="17" data-speed="2500" data-refresh-interval="50"></span>
 					<span class="fh5co-counter-label">Millones en Perú usan Internet.</span>
 				</div>
 				<div class="col-md-3 text-center animate-box">
-					<span class="fh5co-counter js-counter" data-from="0" data-to="80" data-speed="2500" data-refresh-interval="50"></span>
+					<span class="fh5co-counter js-counter js-porcentaje" data-from="0" data-to="80" data-speed="2500" data-refresh-interval="50"></span>
 					<span class="fh5co-counter-label">% son de Lima Metropolitana.</span>
 				</div>
 				<div class="col-md-3 text-center animate-box">
-					<span class="fh5co-counter js-counter" data-from="0" data-to="2000" data-speed="2500" data-refresh-interval="50"></span>
+					<span class="fh5co-counter js-counter js-dollar" data-from="0" data-to="2000" data-speed="2500" data-refresh-interval="50"></span>
 					<span class="fh5co-counter-label">Millones de dólares vendidos.</span>
 				</div>
-				<div class="col-md-3 text-center animate-box">
+				<div class="col-md-3 text-center animate-box js-porcentaje">
 					<span class="fh5co-counter js-counter" data-from="0" data-to="20" data-speed="2500" data-refresh-interval="50"></span>
 					<span class="fh5co-counter-label">% compró desde su teléfono.</span>
 				</div>
@@ -437,7 +437,7 @@
 						<div class="row form-group">
 							<div class="col-md-12">
 								<!-- <label for="email">Email</label> -->
-								<input type="text" id="email" class="form-control" placeholder="eMail">
+								<input type="text" id="email" class="form-control" placeholder="Email">
 							</div>
 						</div>
 
@@ -537,7 +537,7 @@
 	</div>
 	
 	<!-- jQuery -->
-	<script src="js/jquery.min.js"></script>
+	
 	<!-- jQuery Easing -->
 	<script src="js/jquery.easing.1.3.js"></script>
 	<!-- Bootstrap -->
