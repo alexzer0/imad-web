@@ -802,7 +802,7 @@ h1, h2, h3, h4, h5, h6, figure {
 .fh5co-heading h2 {
   font-size: 32px;
   margin-bottom: 20px;
-  line-height: 1.5;
+  line-height: .5;
   color: #000;
 }
 .fh5co-heading p {
@@ -1176,7 +1176,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 #fh5co-footer {
-  background: #efefef;
+  background: #313131;
 }
 #fh5co-footer .fh5co-footer-links {
   padding: 0;
@@ -1188,7 +1188,7 @@ h1, h2, h3, h4, h5, h6, figure {
   list-style: none;
 }
 #fh5co-footer .fh5co-footer-links li a {
-  color: rgba(0, 0, 0, 0.5);
+  color: #828282;
   text-decoration: none;
 }
 #fh5co-footer .fh5co-footer-links li a:hover {
