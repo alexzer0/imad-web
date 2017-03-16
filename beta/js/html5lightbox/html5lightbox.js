@@ -1,7 +1,7 @@
 /** HTML5 LightBox - jQuery Image and Video LightBox Plugin
  * Copyright 2014 Magic Hills Pty Ltd All Rights Reserved
  * Website: http://html5box.com
- * Version 6.9 
+ * Version 6.9  
  */
 (function(){var scripts=document.getElementsByTagName("script");var jsFolder="";for(var i=0;i<scripts.length;i++)if(scripts[i].src&&scripts[i].src.match(/html5lightbox\.js/i))jsFolder=scripts[i].src.substr(0,scripts[i].src.lastIndexOf("/")+1);var loadjQuery=false;if(typeof jQuery=="undefined")loadjQuery=true;else{var jVersion=jQuery.fn.jquery.split(".");if(jVersion[0]<1||jVersion[0]==1&&jVersion[1]<6)loadjQuery=true}if(loadjQuery){var head=document.getElementsByTagName("head")[0];var script=document.createElement("script");
 script.setAttribute("type","text/javascript");if(script.readyState)script.onreadystatechange=function(){if(script.readyState=="loaded"||script.readyState=="complete"){script.onreadystatechange=null;loadHtml5LightBox(jsFolder)}};else script.onload=function(){loadHtml5LightBox(jsFolder)};script.setAttribute("src",jsFolder+"jquery.js");head.appendChild(script)}else loadHtml5LightBox(jsFolder)})();
